@@ -6,10 +6,12 @@ export default function App() {
   const dec = () => setCount(count => count - 1);
   return (
     <>
-      <h1>Hello from actions</h1>
-      <button onClick={dec}>-</button>
-      <div>{count}</div>
-      <button onClick={inc}>+</button>
+      <div>
+        <button onClick={dec}>-</button>
+        <div>{count}</div>
+        <button onClick={inc}>+</button>
+      </div>
+      <div>Hello from actions</div>
     </>
   );
 }
