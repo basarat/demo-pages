@@ -1,5 +1,6 @@
 {
   "name": "demo-pages",
+  "homepage": "/demo-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
