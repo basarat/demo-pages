@@ -11,7 +11,6 @@ export default function App() {
         <div>{count}</div>
         <button onClick={inc}>+</button>
       </div>
-      <div>Hello from actions</div>
     </>
   );
 }
