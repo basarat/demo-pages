@@ -1,8 +1,11 @@
-/* Horizontal spaced no wrapping */
-#root {
+#root > div:first-child {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 5px;
   gap: 5px;
+}
+#root > div:first-child > div {
+  width: 20px;
+  text-align: center;
 }
